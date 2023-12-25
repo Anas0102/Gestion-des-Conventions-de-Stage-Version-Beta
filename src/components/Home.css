@@ -1,0 +1,58 @@
+
+.horizontal-menu button {
+  width: 250px;
+  margin-right: 10px;
+}
+
+
+.navbar {
+  background-color: #019267;
+}
+
+.navbar a,
+.navbar .dropdown-menu {
+  color: white !important;
+}
+
+.navbar a:hover,
+.navbar .dropdown-menu a:hover {
+  color: rgb(54, 42, 42) !important;
+}
+
+/* Add this style for the dropdown menu background color */
+.navbar .dropdown-menu {
+  background-color: #019267;
+}
+
+/* Adjust the margin and padding for the image and navbar elements */
+.image-menu {
+  width: 140px;
+  height: 40px;
+  filter: brightness(0) invert(1);
+  margin-right: 10px; /* Adjust as needed */
+  margin-bottom: 5px; /* Adjust as needed */
+}
+
+.Icons {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px; /* Adjust as needed */
+}
+.Icon-subject{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  color: aliceblue;
+  margin-top: 7px;
+}
+
+.navbar .nav-link {
+  margin-right: 5px; /* Adjust as needed */
+}
+
+.navbar .dropdown-menu {
+  margin-top: 2px; /* Adjust as needed */
+}
+.space-button{
+  margin-right: 0.75rem;
+}

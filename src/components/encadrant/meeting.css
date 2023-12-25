@@ -1,0 +1,54 @@
+.meeting-container {
+    margin: 20px;
+  }
+  
+  .meeting-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .meeting-table th, .meeting-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .meeting-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .meeting-table ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .meeting-table li {
+    margin-bottom: 5px;
+  }
+  
+  .present {
+    color: green;
+  }
+  
+  .absent {
+    color: red;
+  }
+  .meeting-button {
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add some border-radius for a rounded look */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  /* Style for the notes textarea */
+  .meeting-notes {
+    width: 100%; /* Make the textarea take the full width */
+    margin-top: 10px; /* Add margin at the top */
+    padding: 8px; /* Add padding for a comfortable input area */
+    box-sizing: border-box; /* Include padding and border in the textarea's total width and height */
+  }
+  
